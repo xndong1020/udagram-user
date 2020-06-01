@@ -12,4 +12,4 @@ RUN npm build
 
 EXPOSE 8200
 
-CMD npm start
+CMD [ "npm", "run", "prod" ]
