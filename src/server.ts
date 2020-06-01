@@ -28,7 +28,7 @@ import { V0_USER_MODELS } from "./controllers/v0/model.index";
         "Authorization",
       ],
       methods: "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
-      origin: config.url,
+      origin: "*",
     })
   );
 
